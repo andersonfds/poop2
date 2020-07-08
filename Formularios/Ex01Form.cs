@@ -48,24 +48,18 @@ namespace POOP2.Formularios
         {
             InputDialog id = new InputDialog();
             id.ShowDialog();
-            double preco;
-            if (double.TryParse(id.Valor, out preco))
-            {
+            if (double.TryParse(id.Valor, out double preco))
                 _usuario.Comprar(preco);
-            } else
-            {
+            else
                 MessageBox.Show("Entrada inválida");
-            }
         }
 
         private void creditCardIncreaseLimitTxb_Click(object sender, EventArgs e)
         {
             InputDialog id = new InputDialog();
             id.ShowDialog();
-            double valor;
-            double.TryParse(id.Valor, out valor);
+            double.TryParse(id.Valor, out double valor);
             _usuario.Card.IncreaseLimit(valor);
-
         }
     }
 }
