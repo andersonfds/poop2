@@ -56,6 +56,9 @@
     <Compile Include="Classes\Ex10\Dog.cs" />
     <Compile Include="Classes\Ex01\CreditCard.cs" />
     <Compile Include="Classes\Ex01\Usuario.cs" />
+    <Compile Include="Classes\Ex08\User.cs" />
+    <Compile Include="Classes\Ex08\Post.cs" />
+    <Compile Include="Classes\Ex08\Comment.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +77,12 @@
     <Compile Include="Formularios\Ex10Form.Designer.cs">
       <DependentUpon>Ex10Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Ex08Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Ex08Form.Designer.cs">
+      <DependentUpon>Ex08Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\InputDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Ex01Form.resx">
       <DependentUpon>Ex01Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Ex08Form.resx">
+      <DependentUpon>Ex08Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Ex10Form.resx">
       <DependentUpon>Ex10Form.cs</DependentUpon>
