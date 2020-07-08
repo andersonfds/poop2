@@ -7,13 +7,9 @@ namespace POOP2
 {
     public partial class Form1 : Form
     {
-
-        private Usuario usuario;
-
         public Form1()
         {
             InitializeComponent();
-            usuario = new Usuario();
         }
 
         private void btnExercisesClick(object sender, EventArgs e)
@@ -23,6 +19,9 @@ namespace POOP2
             {
                 case "btnEx1":
                     form = new Ex01Form();
+                    break;
+                case "btnEx10":
+                    form = new Ex10Form();
                     break;
                 default:
                     break;

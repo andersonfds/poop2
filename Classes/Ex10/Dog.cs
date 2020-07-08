@@ -2,7 +2,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace POOP2.Classes.Ex02
+namespace POOP2.Classes.Ex10
 {
     public class Dog : IAnimal
     {
@@ -14,12 +14,12 @@ namespace POOP2.Classes.Ex02
 
         public void EmitSound()
         {
-            throw new NotImplementedException();
+            MessageBox.Show("AU AU");
         }
 
         public void Print()
         {
-            MessageBox.Show("Au Au Au");
+            MessageBox.Show(string.Format("Nome: {0}\nIdade: {1}", Name, Age));
         }
     }
 }
