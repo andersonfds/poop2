@@ -1,12 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Windows.Forms;
 
 namespace POOP2.Classes.Ex08
 {
-    class Comment
+    public class Comment
     {
+        private string text;
+        private int likes;
+
+        public string Text { get => text; set => text = value; }
+        public int Likes { get => likes; set => likes = value; }
+
+        public void Print()
+        {
+            MessageBox.Show(string.Format("Comentário: {0}\nCurtidas: {1}", Text, Likes));
+        }
+
+        public void Like()
+        {
+            Likes += 1;
+            MessageBox.Show("Curtido com sucesso!");
+        }
     }
 }
