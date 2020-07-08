@@ -10,3 +10,5 @@ D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.pdb
 D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.Ex01Form.resources
 D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.InputDialog.resources
 D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.Ex10Form.resources
+D:\Projetos\C#\POOP2\POOP2\bin\Debug\AxInterop.WMPLib.dll
+D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.csproj.CopyComplete

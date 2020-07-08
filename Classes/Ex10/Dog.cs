@@ -14,6 +14,9 @@ namespace POOP2.Classes.Ex10
 
         public void EmitSound()
         {
+            WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+            wplayer.URL = "latido.mp3";
+            wplayer.controls.play();
             MessageBox.Show("AU AU");
         }
 
