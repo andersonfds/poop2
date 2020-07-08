@@ -53,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Ex03\Department.cs" />
+    <Compile Include="Classes\Ex03\Manager.cs" />
     <Compile Include="Classes\Ex09\EletricCar.cs" />
     <Compile Include="Classes\Ex09\Vehicle.cs" />
     <Compile Include="Classes\Ex10\Dog.cs" />
@@ -72,6 +74,12 @@
     </Compile>
     <Compile Include="Formularios\Ex01Form.Designer.cs">
       <DependentUpon>Ex01Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Ex03Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Ex03Form.Designer.cs">
+      <DependentUpon>Ex03Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Ex08Form.cs">
       <SubType>Form</SubType>
@@ -97,6 +105,12 @@
     <Compile Include="Formularios\InputDialog.Designer.cs">
       <DependentUpon>InputDialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\PostsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PostsForm.Designer.cs">
+      <DependentUpon>PostsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\IAnimal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -105,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Ex01Form.resx">
       <DependentUpon>Ex01Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Ex03Form.resx">
+      <DependentUpon>Ex03Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Ex09Form.resx">
       <DependentUpon>Ex09Form.cs</DependentUpon>
@@ -117,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\InputDialog.resx">
       <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PostsForm.resx">
+      <DependentUpon>PostsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -29,41 +29,41 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtRegisterPassword = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtRegisterPassword = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtRegisterEmail = new System.Windows.Forms.TextBox();
             this.txtRegisterName = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.txtPassword = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.emailTxt = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtTitle = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtContent = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtPassword);
+            this.groupBox1.Controls.Add(this.txtRegisterPassword);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.txtRegisterPassword);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtRegisterEmail);
             this.groupBox1.Controls.Add(this.txtRegisterName);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.txtPassword);
+            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.emailTxt);
             this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.button2);
@@ -74,6 +74,20 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Usuário";
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(6, 79);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(204, 20);
+            this.txtPassword.TabIndex = 13;
+            // 
+            // txtRegisterPassword
+            // 
+            this.txtRegisterPassword.Location = new System.Drawing.Point(6, 248);
+            this.txtRegisterPassword.Name = "txtRegisterPassword";
+            this.txtRegisterPassword.Size = new System.Drawing.Size(204, 20);
+            this.txtRegisterPassword.TabIndex = 12;
             // 
             // button3
             // 
@@ -93,13 +107,6 @@
             this.label5.Size = new System.Drawing.Size(38, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "Senha";
-            // 
-            // txtRegisterPassword
-            // 
-            this.txtRegisterPassword.Location = new System.Drawing.Point(6, 248);
-            this.txtRegisterPassword.Name = "txtRegisterPassword";
-            this.txtRegisterPassword.Size = new System.Drawing.Size(204, 20);
-            this.txtRegisterPassword.TabIndex = 9;
             // 
             // label4
             // 
@@ -133,21 +140,14 @@
             this.txtRegisterName.Size = new System.Drawing.Size(204, 20);
             this.txtRegisterName.TabIndex = 2;
             // 
-            // textBox2
+            // label2
             // 
-            this.textBox2.Location = new System.Drawing.Point(6, 79);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(204, 20);
-            this.textBox2.TabIndex = 5;
-            // 
-            // txtPassword
-            // 
-            this.txtPassword.AutoSize = true;
-            this.txtPassword.Location = new System.Drawing.Point(3, 63);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(38, 13);
-            this.txtPassword.TabIndex = 4;
-            this.txtPassword.Text = "Senha";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 63);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Senha";
             // 
             // emailTxt
             // 
@@ -188,11 +188,11 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.textBox7);
+            this.groupBox2.Controls.Add(this.txtTitle);
             this.groupBox2.Controls.Add(this.button5);
             this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.txtContent);
             this.groupBox2.Location = new System.Drawing.Point(235, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(269, 245);
@@ -209,12 +209,12 @@
             this.label7.TabIndex = 5;
             this.label7.Text = "Descrição";
             // 
-            // textBox7
+            // txtTitle
             // 
-            this.textBox7.Location = new System.Drawing.Point(9, 39);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(254, 20);
-            this.textBox7.TabIndex = 4;
+            this.txtTitle.Location = new System.Drawing.Point(9, 39);
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.Size = new System.Drawing.Size(254, 20);
+            this.txtTitle.TabIndex = 4;
             // 
             // button5
             // 
@@ -224,6 +224,7 @@
             this.button5.TabIndex = 3;
             this.button5.Text = "Ver Posts";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -233,6 +234,7 @@
             this.button4.TabIndex = 2;
             this.button4.Text = "Publicar";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label6
             // 
@@ -243,13 +245,13 @@
             this.label6.TabIndex = 1;
             this.label6.Text = "No que você está pensando?";
             // 
-            // textBox6
+            // txtContent
             // 
-            this.textBox6.Location = new System.Drawing.Point(9, 79);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(254, 112);
-            this.textBox6.TabIndex = 0;
+            this.txtContent.Location = new System.Drawing.Point(9, 79);
+            this.txtContent.Multiline = true;
+            this.txtContent.Name = "txtContent";
+            this.txtContent.Size = new System.Drawing.Size(254, 112);
+            this.txtContent.TabIndex = 0;
             // 
             // Ex08Form
             // 
@@ -276,11 +278,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label emailTxt;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label txtPassword;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtRegisterName;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtRegisterPassword;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtRegisterEmail;
@@ -288,8 +288,10 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtContent;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtTitle;
+        private System.Windows.Forms.TextBox txtRegisterPassword;
+        private System.Windows.Forms.TextBox txtPassword;
     }
 }

@@ -40,18 +40,6 @@
             this.btnEx8 = new System.Windows.Forms.Button();
             this.btnEx9 = new System.Windows.Forms.Button();
             this.btnEx10 = new System.Windows.Forms.Button();
-            // Click Events
-            this.btnEx1.Click += new System.EventHandler(this.btnExercisesClick);
-            this.btnEx2.Click += new System.EventHandler(this.btnExercisesClick);
-            this.btnEx3.Click += new System.EventHandler(this.btnExercisesClick);
-            this.btnEx4.Click += new System.EventHandler(this.btnExercisesClick);
-            this.btnEx5.Click += new System.EventHandler(this.btnExercisesClick);
-            this.btnEx6.Click += new System.EventHandler(this.btnExercisesClick);
-            this.btnEx7.Click += new System.EventHandler(this.btnExercisesClick);
-            this.btnEx8.Click += new System.EventHandler(this.btnExercisesClick);
-            this.btnEx9.Click += new System.EventHandler(this.btnExercisesClick);
-            this.btnEx10.Click += new System.EventHandler(this.btnExercisesClick);
-
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -70,6 +58,7 @@
             this.btnEx1.Text = "Exercício: Duas classes relacionadas utilizando associação unidirecional 1 para 1" +
     "";
             this.btnEx1.UseVisualStyleBackColor = true;
+            this.btnEx1.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx2
             // 
@@ -80,6 +69,7 @@
             this.btnEx2.Text = "Exercício:  Duas classes relacionadas utilizando associação unidirecional 1 para " +
     "1..*.";
             this.btnEx2.UseVisualStyleBackColor = true;
+            this.btnEx2.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx3
             // 
@@ -90,6 +80,7 @@
             this.btnEx3.Text = "Exercício:  Duas classes relacionadas utilizando associação bidirecional 1 para 1" +
     ".";
             this.btnEx3.UseVisualStyleBackColor = true;
+            this.btnEx3.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx4
             // 
@@ -100,6 +91,7 @@
             this.btnEx4.Text = "Exercício:  Duas classes relacionadas utilizando associação bidirecional 1 para 1" +
     "..*.";
             this.btnEx4.UseVisualStyleBackColor = true;
+            this.btnEx4.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx5
             // 
@@ -109,6 +101,7 @@
             this.btnEx5.TabIndex = 6;
             this.btnEx5.Text = "Exercício:  Duas classes relacionadas utilizando associação de dependência.";
             this.btnEx5.UseVisualStyleBackColor = true;
+            this.btnEx5.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx6
             // 
@@ -118,6 +111,7 @@
             this.btnEx6.TabIndex = 7;
             this.btnEx6.Text = "Exercício:  Duas classes relacionadas utilizando associação de agregação.";
             this.btnEx6.UseVisualStyleBackColor = true;
+            this.btnEx6.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx7
             // 
@@ -127,6 +121,7 @@
             this.btnEx7.TabIndex = 8;
             this.btnEx7.Text = "Exercício:  Duas classes relacionadas utilizando associação de Composição.";
             this.btnEx7.UseVisualStyleBackColor = true;
+            this.btnEx7.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx8
             // 
@@ -136,6 +131,7 @@
             this.btnEx8.TabIndex = 9;
             this.btnEx8.Text = "Exercício:  Três classes com relacionamento associativo.";
             this.btnEx8.UseVisualStyleBackColor = true;
+            this.btnEx8.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx9
             // 
@@ -145,6 +141,7 @@
             this.btnEx9.TabIndex = 10;
             this.btnEx9.Text = "Exercício:  Uma classe com herança de uma classe abstrata.";
             this.btnEx9.UseVisualStyleBackColor = true;
+            this.btnEx9.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx10
             // 
@@ -154,6 +151,7 @@
             this.btnEx10.TabIndex = 11;
             this.btnEx10.Text = "Exercício:  Uma classe com implementação de uma interface.";
             this.btnEx10.UseVisualStyleBackColor = true;
+            this.btnEx10.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // label1
             // 

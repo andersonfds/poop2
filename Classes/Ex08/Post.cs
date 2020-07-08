@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace POOP2.Classes.Ex08
 {
@@ -17,14 +12,16 @@ namespace POOP2.Classes.Ex08
         public string Content { get => _content; set => _content = value; }
         public int Likes { get => _likes; set => _likes = value; }
 
-        public void WriteNew()
+        public void WriteNew(string title, string content)
         {
-
+            this.Title = title;
+            this.Content = content;
+            this.Likes = 0;
         }
         
         public void Like()
         {
-
+            this.Likes+=1;
         }
 
         public void Print()
