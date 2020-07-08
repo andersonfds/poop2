@@ -39,7 +39,9 @@ namespace POOP2.Formularios
 
         private void printCreditCardTxb_Click(object sender, EventArgs e)
         {
-            _usuario.Card.Print();
+            if (_usuario.Card == null)
+                MessageBox.Show("Não foi adicionado cartão de crédito ainda!");
+            _usuario.Card?.Print();
         }
 
         private void userBuyTxb_Click(object sender, EventArgs e)
