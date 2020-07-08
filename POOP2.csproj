@@ -46,8 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\CreditCard.cs" />
-    <Compile Include="Classes\Usuario.cs" />
+    <Compile Include="Classes\Ex10\Dog.cs" />
+    <Compile Include="Classes\Ex01\CreditCard.cs" />
+    <Compile Include="Classes\Ex01\Usuario.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,13 +61,19 @@
     <Compile Include="Formularios\Ex01Form.Designer.cs">
       <DependentUpon>Ex01Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Ex10Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Ex10Form.Designer.cs">
+      <DependentUpon>Ex10Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\InputDialog.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\InputDialog.Designer.cs">
       <DependentUpon>InputDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interfaces\IPrincipal.cs" />
+    <Compile Include="Interfaces\IAnimal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Ex01Form.resx">
       <DependentUpon>Ex01Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Ex10Form.resx">
+      <DependentUpon>Ex10Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\InputDialog.resx">
       <DependentUpon>InputDialog.cs</DependentUpon>
