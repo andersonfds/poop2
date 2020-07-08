@@ -7,13 +7,9 @@ namespace POOP2.Formularios
     public partial class Ex03Form : Form
     {
         private Manager _manager;
-        private Department _department;
         public Ex03Form()
         {
             _manager = new Manager();
-            _department = new Department();
-            _manager.Department = _department;
-            _department.Manager = _manager;
             InitializeComponent();
         }
 
@@ -47,24 +43,38 @@ namespace POOP2.Formularios
         // Imprimir departamento
         private void button4_Click(Object sender, EventArgs e)
         {
-            _department.Print();
+            _manager.Department.Print();
         }
 
         //Contratar
         private void button1_Click(Object sender, EventArgs e)
         {
             _manager.Hire();
+            label6.Text = _manager.Department.EmployeesCount.ToString();
         }
 
         //Demitir
         private void button2_Click(Object sender, EventArgs e)
         {
             _manager.Fire();
+            label6.Text = _manager.Department.EmployeesCount.ToString();
         }
 
+        //Salvar departamento
         private void button6_Click(Object sender, EventArgs e)
         {
+            _manager.Department.Description = textBox3.Text;
+            _manager.Department.MaxEmployeeAmount = int.Parse(textBox4.Text);
+            MessageBox.Show("Departamento editado com sucesso!");
 
+        }
+
+        //Salvar gerente
+        private void button5_Click(Object sender, EventArgs e)
+        {
+            _manager.Name = textBox1.Text;
+            _manager.Salary = double.Parse(textBox2.Text);
+            MessageBox.Show("Gerente editado com sucesso!");
         }
     }
 }
