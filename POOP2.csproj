@@ -57,6 +57,8 @@
     <Compile Include="Classes\Ex02\Store.cs" />
     <Compile Include="Classes\Ex03\Department.cs" />
     <Compile Include="Classes\Ex03\Manager.cs" />
+    <Compile Include="Classes\Ex07\Book.cs" />
+    <Compile Include="Classes\Ex07\Chapter.cs" />
     <Compile Include="Classes\Ex09\EletricCar.cs" />
     <Compile Include="Classes\Ex09\Vehicle.cs" />
     <Compile Include="Classes\Ex10\Dog.cs" />
@@ -94,6 +96,12 @@
     </Compile>
     <Compile Include="Formularios\Ex03Form.Designer.cs">
       <DependentUpon>Ex03Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Ex07Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Ex07Form.Designer.cs">
+      <DependentUpon>Ex07Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Ex08Form.cs">
       <SubType>Form</SubType>
@@ -142,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Ex03Form.resx">
       <DependentUpon>Ex03Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Ex07Form.resx">
+      <DependentUpon>Ex07Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Ex09Form.resx">
       <DependentUpon>Ex09Form.cs</DependentUpon>
