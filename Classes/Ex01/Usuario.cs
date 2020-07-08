@@ -21,11 +21,7 @@ namespace POOP2.Classes.Ex01
 
         public void Comprar(double preco)
         {
-            if (preco == null)
-            {
-                MessageBox.Show("Valor de compra inválido");
-            }
-            else if (Card.CreditLimit < preco)
+            if (Card.CreditLimit < preco)
             {
                 MessageBox.Show("Não há limite o suficiente");
             }
