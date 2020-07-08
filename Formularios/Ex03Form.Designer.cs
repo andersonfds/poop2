@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -37,15 +38,14 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -67,6 +67,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Gerente";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(6, 145);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(199, 34);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Salvar alterações";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button3
             // 
@@ -133,9 +143,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.button6);
             this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.textBox3);
             this.groupBox2.Controls.Add(this.label5);
@@ -148,6 +158,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Departamento";
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(6, 150);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(199, 34);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "Salvar alterações";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(6, 190);
@@ -157,13 +177,6 @@
             this.button4.Text = "Imprimir";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(6, 121);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(199, 20);
-            this.textBox5.TabIndex = 9;
             // 
             // textBox4
             // 
@@ -207,30 +220,21 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Descrição do departamento";
             // 
-            // button5
+            // label6
             // 
-            this.button5.Location = new System.Drawing.Point(6, 145);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(199, 34);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Salvar alterações";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(6, 150);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(199, 34);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "Salvar alterações";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(6, 119);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(18, 20);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "0";
             // 
             // Ex03Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 315);
+            this.ClientSize = new System.Drawing.Size(477, 274);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Ex03Form";
@@ -254,7 +258,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label5;
@@ -263,5 +266,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label6;
     }
 }
