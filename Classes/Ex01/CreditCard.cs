@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace POOP2.Classes
+namespace POOP2.Classes.Ex01
 {
     public class CreditCard
     {
@@ -22,7 +22,7 @@ namespace POOP2.Classes
 
         public void IncreaseLimit(double factor)
         {
-            CreditLimit += CreditLimit * factor;
+            CreditLimit += factor;
         }
 
         public void Print()

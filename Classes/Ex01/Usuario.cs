@@ -2,7 +2,7 @@
 using POOP2.Interfaces;
 using System.Windows.Forms;
 
-namespace POOP2.Classes
+namespace POOP2.Classes.Ex01
 {
     public class Usuario
     {

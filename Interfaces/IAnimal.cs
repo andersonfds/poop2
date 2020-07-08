@@ -1,10 +1,10 @@
 ﻿namespace POOP2.Interfaces
 {
-    interface IPrincipal
+    interface IAnimal
     {
 
         void Print();
 
-        void Acao();
+        void EmitSound();
     }
 }
