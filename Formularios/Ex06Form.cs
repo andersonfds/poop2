@@ -82,5 +82,13 @@ namespace POOP2.Formularios
             _club.Lose();
             label11.Text = _club.Defeats.ToString();
         }
+
+        private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

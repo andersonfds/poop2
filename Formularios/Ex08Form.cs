@@ -11,6 +11,7 @@ namespace POOP2.Formularios
         public Ex08Form()
         {
             InitializeComponent();
+            _user = new User();
         }
 
         // Print

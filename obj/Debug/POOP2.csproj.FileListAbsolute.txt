@@ -45,3 +45,28 @@ C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.csproj.GenerateResour
 C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.csproj.CopyComplete
 C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.exe
 C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.pdb
+D:\Anderson\Downloads\poop2\bin\Debug\POOP2.exe.config
+D:\Anderson\Downloads\poop2\bin\Debug\POOP2.exe
+D:\Anderson\Downloads\poop2\bin\Debug\POOP2.pdb
+D:\Anderson\Downloads\poop2\bin\Debug\AxInterop.WMPLib.dll
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.csprojAssemblyReference.cache
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Form1.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.CommentsForm.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.Ex01Form.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.Ex02Form.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.Ex03Form.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.Ex05Form.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.Ex07Form.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.Ex04Form.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.Ex06Form.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.Ex09Form.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.Ex08Form.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.Ex10Form.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.InputDialog.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Formularios.PostsForm.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.Properties.Resources.resources
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.csproj.GenerateResource.cache
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.csproj.CoreCompileInputs.cache
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.csproj.CopyComplete
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.exe
+D:\Anderson\Downloads\poop2\obj\Debug\POOP2.pdb
