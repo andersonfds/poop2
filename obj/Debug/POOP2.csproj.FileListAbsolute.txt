@@ -20,3 +20,26 @@ D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.PostsForm.resources
 D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.csprojAssemblyReference.cache
 D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.CommentsForm.resources
 D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.Ex07Form.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\bin\Debug\POOP2.exe.config
+C:\Users\Davi Santoro Stocco\Desktop\poop2\bin\Debug\POOP2.exe
+C:\Users\Davi Santoro Stocco\Desktop\poop2\bin\Debug\POOP2.pdb
+C:\Users\Davi Santoro Stocco\Desktop\poop2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Form1.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.CommentsForm.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.Ex01Form.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.Ex02Form.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.Ex03Form.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.Ex05Form.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.Ex07Form.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.Ex04Form.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.Ex06Form.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.Ex09Form.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.Ex08Form.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.Ex10Form.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.InputDialog.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Formularios.PostsForm.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.Properties.Resources.resources
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.csproj.GenerateResource.cache
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.csproj.CopyComplete
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.exe
+C:\Users\Davi Santoro Stocco\Desktop\poop2\obj\Debug\POOP2.pdb

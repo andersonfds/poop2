@@ -76,5 +76,10 @@ namespace POOP2.Formularios
             _manager.Salary = double.Parse(textBox2.Text);
             MessageBox.Show("Gerente editado com sucesso!");
         }
+
+        private void textBox2_TextChanged(Object sender, EventArgs e)
+        {
+
+        }
     }
 }

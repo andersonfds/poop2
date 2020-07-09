@@ -57,6 +57,8 @@
     <Compile Include="Classes\Ex02\Store.cs" />
     <Compile Include="Classes\Ex03\Department.cs" />
     <Compile Include="Classes\Ex03\Manager.cs" />
+    <Compile Include="Classes\Ex05\Car.cs" />
+    <Compile Include="Classes\Ex05\Person.cs" />
     <Compile Include="Classes\Ex07\Book.cs" />
     <Compile Include="Classes\Ex07\Chapter.cs" />
     <Compile Include="Classes\Ex04\Professor.cs" />
@@ -100,6 +102,12 @@
     </Compile>
     <Compile Include="Formularios\Ex03Form.Designer.cs">
       <DependentUpon>Ex03Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Ex05Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Ex05Form.Designer.cs">
+      <DependentUpon>Ex05Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Ex07Form.cs">
       <SubType>Form</SubType>
@@ -166,6 +174,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Ex03Form.resx">
       <DependentUpon>Ex03Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Ex05Form.resx">
+      <DependentUpon>Ex05Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Ex07Form.resx">
       <DependentUpon>Ex07Form.cs</DependentUpon>
