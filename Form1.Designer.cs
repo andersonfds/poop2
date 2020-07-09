@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.btnEx1 = new System.Windows.Forms.Button();
             this.btnEx2 = new System.Windows.Forms.Button();
             this.btnEx3 = new System.Windows.Forms.Button();
@@ -51,115 +49,121 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // btnEx1
             // 
+            this.btnEx1.BackColor = System.Drawing.Color.White;
             this.btnEx1.Location = new System.Drawing.Point(70, 11);
             this.btnEx1.Name = "btnEx1";
             this.btnEx1.Size = new System.Drawing.Size(776, 46);
             this.btnEx1.TabIndex = 2;
             this.btnEx1.Text = "Exercício: Duas classes relacionadas utilizando associação unidirecional 1 para 1" +
     "";
-            this.btnEx1.UseVisualStyleBackColor = true;
+            this.btnEx1.UseVisualStyleBackColor = false;
             this.btnEx1.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx2
             // 
+            this.btnEx2.BackColor = System.Drawing.Color.White;
             this.btnEx2.Location = new System.Drawing.Point(70, 63);
             this.btnEx2.Name = "btnEx2";
             this.btnEx2.Size = new System.Drawing.Size(776, 46);
             this.btnEx2.TabIndex = 3;
             this.btnEx2.Text = "Exercício:  Duas classes relacionadas utilizando associação unidirecional 1 para " +
     "1..*.";
-            this.btnEx2.UseVisualStyleBackColor = true;
+            this.btnEx2.UseVisualStyleBackColor = false;
             this.btnEx2.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx3
             // 
+            this.btnEx3.BackColor = System.Drawing.Color.White;
             this.btnEx3.Location = new System.Drawing.Point(70, 115);
             this.btnEx3.Name = "btnEx3";
             this.btnEx3.Size = new System.Drawing.Size(776, 46);
             this.btnEx3.TabIndex = 4;
             this.btnEx3.Text = "Exercício:  Duas classes relacionadas utilizando associação bidirecional 1 para 1" +
     ".";
-            this.btnEx3.UseVisualStyleBackColor = true;
+            this.btnEx3.UseVisualStyleBackColor = false;
             this.btnEx3.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx4
             // 
+            this.btnEx4.BackColor = System.Drawing.Color.White;
             this.btnEx4.Location = new System.Drawing.Point(70, 167);
             this.btnEx4.Name = "btnEx4";
             this.btnEx4.Size = new System.Drawing.Size(776, 46);
             this.btnEx4.TabIndex = 5;
             this.btnEx4.Text = "Exercício:  Duas classes relacionadas utilizando associação bidirecional 1 para 1" +
     "..*.";
-            this.btnEx4.UseVisualStyleBackColor = true;
+            this.btnEx4.UseVisualStyleBackColor = false;
             this.btnEx4.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx5
             // 
+            this.btnEx5.BackColor = System.Drawing.Color.White;
             this.btnEx5.Location = new System.Drawing.Point(70, 219);
             this.btnEx5.Name = "btnEx5";
             this.btnEx5.Size = new System.Drawing.Size(776, 46);
             this.btnEx5.TabIndex = 6;
             this.btnEx5.Text = "Exercício:  Duas classes relacionadas utilizando associação de dependência.";
-            this.btnEx5.UseVisualStyleBackColor = true;
+            this.btnEx5.UseVisualStyleBackColor = false;
             this.btnEx5.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx6
             // 
+            this.btnEx6.BackColor = System.Drawing.Color.White;
             this.btnEx6.Location = new System.Drawing.Point(70, 271);
             this.btnEx6.Name = "btnEx6";
             this.btnEx6.Size = new System.Drawing.Size(776, 46);
             this.btnEx6.TabIndex = 7;
             this.btnEx6.Text = "Exercício:  Duas classes relacionadas utilizando associação de agregação.";
-            this.btnEx6.UseVisualStyleBackColor = true;
+            this.btnEx6.UseVisualStyleBackColor = false;
             this.btnEx6.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx7
             // 
+            this.btnEx7.BackColor = System.Drawing.Color.White;
             this.btnEx7.Location = new System.Drawing.Point(70, 323);
             this.btnEx7.Name = "btnEx7";
             this.btnEx7.Size = new System.Drawing.Size(776, 46);
             this.btnEx7.TabIndex = 8;
             this.btnEx7.Text = "Exercício:  Duas classes relacionadas utilizando associação de Composição.";
-            this.btnEx7.UseVisualStyleBackColor = true;
+            this.btnEx7.UseVisualStyleBackColor = false;
             this.btnEx7.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx8
             // 
+            this.btnEx8.BackColor = System.Drawing.Color.White;
             this.btnEx8.Location = new System.Drawing.Point(70, 375);
             this.btnEx8.Name = "btnEx8";
             this.btnEx8.Size = new System.Drawing.Size(776, 46);
             this.btnEx8.TabIndex = 9;
             this.btnEx8.Text = "Exercício:  Três classes com relacionamento associativo.";
-            this.btnEx8.UseVisualStyleBackColor = true;
+            this.btnEx8.UseVisualStyleBackColor = false;
             this.btnEx8.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx9
             // 
+            this.btnEx9.BackColor = System.Drawing.Color.White;
             this.btnEx9.Location = new System.Drawing.Point(70, 427);
             this.btnEx9.Name = "btnEx9";
             this.btnEx9.Size = new System.Drawing.Size(776, 46);
             this.btnEx9.TabIndex = 10;
             this.btnEx9.Text = "Exercício:  Uma classe com herança de uma classe abstrata.";
-            this.btnEx9.UseVisualStyleBackColor = true;
+            this.btnEx9.UseVisualStyleBackColor = false;
             this.btnEx9.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // btnEx10
             // 
+            this.btnEx10.BackColor = System.Drawing.Color.White;
             this.btnEx10.Location = new System.Drawing.Point(70, 479);
             this.btnEx10.Name = "btnEx10";
             this.btnEx10.Size = new System.Drawing.Size(776, 46);
             this.btnEx10.TabIndex = 11;
             this.btnEx10.Text = "Exercício:  Uma classe com implementação de uma interface.";
-            this.btnEx10.UseVisualStyleBackColor = true;
+            this.btnEx10.UseVisualStyleBackColor = false;
             this.btnEx10.Click += new System.EventHandler(this.btnExercisesClick);
             // 
             // label3
@@ -272,11 +276,24 @@
             this.label13.TabIndex = 15;
             this.label13.Text = "#10";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(616, 553);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(279, 27);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Developed by Anderson & Davi";
+            this.label1.UseMnemonic = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(907, 533);
+            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.ClientSize = new System.Drawing.Size(907, 589);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -299,7 +316,6 @@
             this.Controls.Add(this.btnEx2);
             this.Controls.Add(this.btnEx1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(923, 572);
             this.MinimumSize = new System.Drawing.Size(923, 572);
             this.Name = "Form1";
             this.Text = "Prova 2 - Ricardo Balieiro";
@@ -309,7 +325,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button btnEx1;
         private System.Windows.Forms.Button btnEx2;
         private System.Windows.Forms.Button btnEx3;
@@ -331,6 +346,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label1;
     }
 }
 
