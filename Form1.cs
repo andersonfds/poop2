@@ -26,6 +26,9 @@ namespace POOP2
                 case "btnEx3":
                     form = new Ex03Form();
                     break;
+                case "btnEx7":
+                    form = new Ex07Form();
+                    break;
                 case "btnEx8":
                     form = new Ex08Form();
                     break;
