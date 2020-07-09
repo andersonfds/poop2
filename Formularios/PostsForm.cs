@@ -1,12 +1,6 @@
 ﻿using POOP2.Classes.Ex08;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace POOP2.Formularios
@@ -19,16 +13,59 @@ namespace POOP2.Formularios
         {
             this._posts = posts;
             InitializeComponent();
+            _posts.ForEach(x => lbxPosts.Items.Add(x.Title));
+        }
 
-            foreach (var item in _posts)
+        private void btnCurtir_Click(object sender, EventArgs e)
+        {
+            if (lbxPosts.SelectedIndex >= 0)
             {
-                this.listView1.Items.Add($"Título da publicação: {item.Title}\nConteúdo: {item.Content}");
+                Post selectedPost = _posts[lbxPosts.SelectedIndex];
+                selectedPost.Like();
+            }
+
+        }
+
+        private void lbxPosts_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lbxPosts.SelectedIndex >= 0)
+            {
+                Post selectedPost = _posts[lbxPosts.SelectedIndex];
+                lblPostTitle.Text = selectedPost.Title;
+                lblPostContent.Text = selectedPost.Content;
             }
         }
 
-        private void label1_Click(Object sender, EventArgs e)
+        private void btnPrint_Click(object sender, EventArgs e)
         {
+            if (lbxPosts.SelectedIndex >= 0)
+            {
+                Post selectedPost = _posts[lbxPosts.SelectedIndex];
+                selectedPost.Print();
+            }
+        }
 
+        private void btnComments_Click(object sender, EventArgs e)
+        {
+            if (lbxPosts.SelectedIndex >= 0)
+            {
+                Post selectedPost = _posts[lbxPosts.SelectedIndex];
+                CommentsForm cform = new CommentsForm(selectedPost.Comments);
+                cform.Show();
+            }
+        }
+
+        private void btnComentar_Click(object sender, EventArgs e)
+        {
+            if (lbxPosts.SelectedIndex >= 0)
+            {
+                Post selectedPost = _posts[lbxPosts.SelectedIndex];
+                selectedPost.WriteNewComment(new Comment
+                {
+                    Text= txbComment.Text
+                });
+                txbComment.Text = "";
+            }
         }
     }
 }
