@@ -29,42 +29,62 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnPrint = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txbPublisherName = new System.Windows.Forms.TextBox();
             this.lblBookName = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txbBookName = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.txbChapterNumber = new System.Windows.Forms.NumericUpDown();
+            this.btnInsert = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.txbChapterTitle = new System.Windows.Forms.TextBox();
+            this.btnDetails = new System.Windows.Forms.Button();
+            this.btnTurnPage = new System.Windows.Forms.Button();
+            this.btnChapters = new System.Windows.Forms.Button();
+            this.lbxChapters = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txbChapterNumber)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btnPrint);
+            this.groupBox1.Controls.Add(this.btnSave);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txbPublisherName);
             this.groupBox1.Controls.Add(this.lblBookName);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txbBookName);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(259, 133);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Livro";
+            // 
+            // btnPrint
+            // 
+            this.btnPrint.Location = new System.Drawing.Point(97, 101);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(75, 23);
+            this.btnPrint.TabIndex = 5;
+            this.btnPrint.Text = "Imprimir";
+            this.btnPrint.UseVisualStyleBackColor = true;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(178, 101);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 4;
+            this.btnSave.Text = "Salvar";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // label1
             // 
@@ -75,12 +95,12 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Editora do Livro";
             // 
-            // textBox2
+            // txbPublisherName
             // 
-            this.textBox2.Location = new System.Drawing.Point(6, 75);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(247, 20);
-            this.textBox2.TabIndex = 2;
+            this.txbPublisherName.Location = new System.Drawing.Point(6, 75);
+            this.txbPublisherName.Name = "txbPublisherName";
+            this.txbPublisherName.Size = new System.Drawing.Size(247, 20);
+            this.txbPublisherName.TabIndex = 2;
             // 
             // lblBookName
             // 
@@ -91,29 +111,20 @@
             this.lblBookName.TabIndex = 1;
             this.lblBookName.Text = "Nome do Livro";
             // 
-            // textBox1
+            // txbBookName
             // 
-            this.textBox1.Location = new System.Drawing.Point(6, 36);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(247, 20);
-            this.textBox1.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(178, 101);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Salvar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.txbBookName.Location = new System.Drawing.Point(6, 36);
+            this.txbBookName.Name = "txbBookName";
+            this.txbBookName.Size = new System.Drawing.Size(247, 20);
+            this.txbBookName.TabIndex = 0;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.numericUpDown1);
-            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.txbChapterNumber);
+            this.groupBox2.Controls.Add(this.btnInsert);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.txbChapterTitle);
             this.groupBox2.Location = new System.Drawing.Point(12, 201);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(259, 133);
@@ -121,14 +132,22 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Capítulo";
             // 
-            // button2
+            // txbChapterNumber
             // 
-            this.button2.Location = new System.Drawing.Point(178, 101);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Inserir";
-            this.button2.UseVisualStyleBackColor = true;
+            this.txbChapterNumber.Location = new System.Drawing.Point(6, 75);
+            this.txbChapterNumber.Name = "txbChapterNumber";
+            this.txbChapterNumber.Size = new System.Drawing.Size(247, 20);
+            this.txbChapterNumber.TabIndex = 6;
+            // 
+            // btnInsert
+            // 
+            this.btnInsert.Location = new System.Drawing.Point(178, 101);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.Size = new System.Drawing.Size(75, 23);
+            this.btnInsert.TabIndex = 4;
+            this.btnInsert.Text = "Inserir";
+            this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
             // label2
             // 
@@ -148,63 +167,50 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Nome do Capítulo";
             // 
-            // textBox4
+            // txbChapterTitle
             // 
-            this.textBox4.Location = new System.Drawing.Point(6, 36);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(247, 20);
-            this.textBox4.TabIndex = 0;
+            this.txbChapterTitle.Location = new System.Drawing.Point(6, 36);
+            this.txbChapterTitle.Name = "txbChapterTitle";
+            this.txbChapterTitle.Size = new System.Drawing.Size(247, 20);
+            this.txbChapterTitle.TabIndex = 0;
             // 
-            // button3
+            // btnDetails
             // 
-            this.button3.Location = new System.Drawing.Point(97, 101);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Imprimir";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnDetails.Location = new System.Drawing.Point(497, 311);
+            this.btnDetails.Name = "btnDetails";
+            this.btnDetails.Size = new System.Drawing.Size(117, 23);
+            this.btnDetails.TabIndex = 6;
+            this.btnDetails.Text = "Detalhes";
+            this.btnDetails.UseVisualStyleBackColor = true;
+            this.btnDetails.Click += new System.EventHandler(this.btnDetails_Click);
             // 
-            // button4
+            // btnTurnPage
             // 
-            this.button4.Location = new System.Drawing.Point(497, 356);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(117, 23);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Detalhes";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnTurnPage.Location = new System.Drawing.Point(295, 311);
+            this.btnTurnPage.Name = "btnTurnPage";
+            this.btnTurnPage.Size = new System.Drawing.Size(116, 23);
+            this.btnTurnPage.TabIndex = 7;
+            this.btnTurnPage.Text = "Virar a Página";
+            this.btnTurnPage.UseVisualStyleBackColor = true;
+            this.btnTurnPage.Click += new System.EventHandler(this.btnTurnPage_Click);
             // 
-            // numericUpDown1
+            // btnChapters
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(6, 75);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(247, 20);
-            this.numericUpDown1.TabIndex = 6;
+            this.btnChapters.Location = new System.Drawing.Point(12, 151);
+            this.btnChapters.Name = "btnChapters";
+            this.btnChapters.Size = new System.Drawing.Size(259, 39);
+            this.btnChapters.TabIndex = 8;
+            this.btnChapters.Text = "Trocar de Capítulo";
+            this.btnChapters.UseVisualStyleBackColor = true;
+            this.btnChapters.Click += new System.EventHandler(this.btnChapters_Click);
             // 
-            // button5
+            // lbxChapters
             // 
-            this.button5.Location = new System.Drawing.Point(12, 340);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(259, 39);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Virar a Página";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(12, 151);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(259, 39);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "Trocar de Capítulo";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(295, 41);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(319, 303);
-            this.listBox1.TabIndex = 9;
+            this.lbxChapters.FormattingEnabled = true;
+            this.lbxChapters.Location = new System.Drawing.Point(295, 41);
+            this.lbxChapters.Name = "lbxChapters";
+            this.lbxChapters.Size = new System.Drawing.Size(319, 264);
+            this.lbxChapters.TabIndex = 9;
             // 
             // label4
             // 
@@ -219,12 +225,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(625, 450);
+            this.ClientSize = new System.Drawing.Size(625, 347);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnDetails);
+            this.Controls.Add(this.lbxChapters);
+            this.Controls.Add(this.btnChapters);
+            this.Controls.Add(this.btnTurnPage);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Ex07Form";
@@ -233,7 +239,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txbChapterNumber)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,21 +249,21 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lblBookName;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txbBookName;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txbPublisherName;
+        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnInsert;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox txbChapterTitle;
+        private System.Windows.Forms.Button btnPrint;
+        private System.Windows.Forms.Button btnDetails;
+        private System.Windows.Forms.NumericUpDown txbChapterNumber;
+        private System.Windows.Forms.Button btnTurnPage;
+        private System.Windows.Forms.Button btnChapters;
+        private System.Windows.Forms.ListBox lbxChapters;
         private System.Windows.Forms.Label label4;
     }
 }

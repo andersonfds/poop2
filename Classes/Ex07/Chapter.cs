@@ -18,7 +18,8 @@ namespace POOP2.Classes.Ex07
 
         public void TurnPage()
         {
-            MessageBox.Show("Página mudada com sucesso!");
+            if (pageCount > 0)
+                MessageBox.Show("Página mudada com sucesso!");
         }
     }
 }
