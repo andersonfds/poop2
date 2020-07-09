@@ -17,6 +17,8 @@ D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.exe
 D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.pdb
 D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.Ex03Form.resources
 D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.PostsForm.resources
-D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.csprojAssemblyReference.cache
 D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.CommentsForm.resources
 D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.Ex07Form.resources
+D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.Ex04Form.resources
+D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.Formularios.Ex06Form.resources
+D:\Projetos\C#\POOP2\POOP2\obj\Debug\POOP2.csprojAssemblyReference.cache
